@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
 
-// include the shapes js. 
+// include the shapes js and is later called
+const generateShapes = require('lib/shapes.js'); 
 
 inquirer.prompt([
     {
@@ -27,7 +28,7 @@ inquirer.prompt([
     }
   ]).then((answers) => {
     console.log(answers);
-    const svgImg = template(answers); // create function for template 
+    const svgImg = generateShapes(answers); // create function for template 
     fs.writeFile('logo.svg', svgImg, error =>
         error,
         console.log('Generated logo.svg!')
