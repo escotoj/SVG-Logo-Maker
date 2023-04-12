@@ -1,8 +1,11 @@
-const inquirer = require('inquirer');
-const fs = require('fs')
+import inquirer from 'inquirer';
+import fs from 'fs'
+// const fs = require('fs')
 
 // include the shapes js and is later called
-const generateShapes = require('lib/shapes.js'); 
+// import generateShapes from './lib/shapes.js'
+
+// const generateShapes = require(); 
 
 inquirer.prompt([
     {
@@ -19,7 +22,7 @@ inquirer.prompt([
       type: 'list',
       message: 'What shape would you like your image to have?',
       name: 'shapes',
-      choices: [square, triangle, circle],
+      choices: ['square', 'triangle', 'circle'],
     },
     {
       type: 'input',
