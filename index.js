@@ -1,4 +1,6 @@
-import { CLI } from './lib/CLI.js';
+import CLI from './lib/CLI.js';
+
+// const CLI = require('./lib/CLI.js')
 
 CLI.runPrompts();
 
