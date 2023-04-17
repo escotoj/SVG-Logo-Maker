@@ -1,1 +1,1 @@
-<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> <rect x="50" height="220" width="220" fill="Red"/> <text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow">HELLO</text> </svg>
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> <rect x="50" height="220" width="220" fill="Blue"/> <text x="150" y="125" font-size="60" text-anchor="middle" fill="Green">WE DID IT </text> </svg>
