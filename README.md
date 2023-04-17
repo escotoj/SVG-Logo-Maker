@@ -1,7 +1,7 @@
 # SVG Generator
   
   ## Description
-  to create a command line app that will render an image and save it as an SVG file
+  To create a command line app that will render an image and save it as an SVG file
   
   ## Table of Contents
   - [Installation](#Installation)
@@ -11,7 +11,7 @@
   - [Questions](#Questions)
   
   ## Installation
-  node.js and you need inquierer, and jest
+  node.js and you need inquierer, and jest to run the test.
   
   ## License
   
@@ -21,9 +21,7 @@
   Jose Escoto
   
   ## Questions
-How do i link the shapes.js to index.js to that they work with each other.
-I want the input from index to go to shapes and shapes output to go back to index 
-Thinking that each shape could have its own function depending on the input of the promnt, all shapes to be in one class. 
+How to add jest, throwing an npm error
 
   For more questions please contact below: 
   Email: j.escoto@gmail.com 
